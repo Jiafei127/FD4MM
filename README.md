@@ -1,1 +1,2 @@
-# FD4MM: Frequency Decoupling for Motion Magnification via Multi-Level Isomorphic Architecture
+# Frequency Decoupling for Motion Magnification via Multi-Level Isomorphic Architecture
+[Fei Wang](https://scholar.google.com.hk/citations?user=sdqv6pQAAAAJ&hl=zh-CN&oi=ao), [Dan Guo](https://scholar.google.com.hk/citations?user=DsEONuMAAAAJ&hl=zh-CN&oi=ao), [Kun Li](https://scholar.google.com.hk/citations?user=UQ_bInoAAAAJ&hl=zh-CN&oi=ao), [Zhun Zhong](https://scholar.google.com.hk/citations?hl=zh-CN&user=nZizkQ0AAAAJ), [Meng Wang](https://scholar.google.com.hk/citations?user=rHagaaIAAAAJ&hl=zh-CN&oi=ao). AAAI 2024.
