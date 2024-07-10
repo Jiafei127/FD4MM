@@ -8,7 +8,7 @@ Official PyTorch implementation for the paper:
 >
 > [![arXiv](https://img.shields.io/badge/arXiv-Paper-%3CCOLOR%3E.svg)](https://arxiv.org/pdf/2403.07347) |
 > [![GitHub Stars](https://img.shields.io/github/stars/Jiafei127/FD4MM)](https://github.com/Jiafei127/FD4MM) |
-> [![](https://img.shields.io/github/license/Jiafei127/FD4MM)](https://github.com/Jiafei127/FD4MM/blob/main/LICENSE)
+> [![](https://img.shields.io/github/license/Jiafei127/FD4MM)](https://github.com/Jiafei127/FD4MM/main/LICENSE)
 > <a href=' '><img src='https://img.shields.io/badge/Demo-Open in Colab-blue'></a>
 
 <p align="center">
