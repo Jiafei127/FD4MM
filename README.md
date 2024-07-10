@@ -15,9 +15,7 @@ Official PyTorch implementation for the paper:
 <img src="figure.png" width="75%"/>
 </p>
 
-> We propose CodeTalker by casting speech-driven facial animation as a code query task in a finite proxy space of the learned codebook. Given the raw audio and a 3D neutral face template, our CodeTalker can produce vivid and realistic 3D facial motions with subtle expressions and accurate lip movements. 
+> 1
 
 
 
-# [CVPR 2024] Frequency Decoupling for Motion Magnification via Multi-Level Isomorphic Architecture
-[Fei Wang](https://scholar.google.com.hk/citations?user=sdqv6pQAAAAJ&hl=zh-CN&oi=ao), [Dan Guo](https://scholar.google.com.hk/citations?user=DsEONuMAAAAJ&hl=zh-CN&oi=ao), [Kun Li](https://scholar.google.com.hk/citations?user=UQ_bInoAAAAJ&hl=zh-CN&oi=ao), [Zhun Zhong](https://scholar.google.com.hk/citations?hl=zh-CN&user=nZizkQ0AAAAJ), [Meng Wang](https://scholar.google.com.hk/citations?user=rHagaaIAAAAJ&hl=zh-CN&oi=ao).
