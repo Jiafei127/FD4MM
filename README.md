@@ -20,14 +20,33 @@ Video Motion Magnification (VMM) aims to reveal subtle and imperceptible motion 
 
 --- 
 
-> ## 📅: Update - Dec, 2023
+> ## 📅: Data Preparation
+- Please refer to the dataset configuration of [EulerMormer](https://github.com/VUT-HFUT/EulerMormer).
 
+- For **train datasets** from [Oh et al. ECCV 2018](https://github.com/12dmodel/deep_motion_mag), see the official repository [here](https://drive.google.com/drive/folders/19K09QLouiV5N84wZiTPUMdoH9-UYqZrX?usp=sharing).
 
+- For **Real-world datatsets**, we used three settings:
+  - [Static Dataset](https://drive.google.com/drive/folders/1Bm3ItPLhRxRYp-dQ1vZLCYNPajKqxZ1a)
+  - [Dynamic Dataset](https://drive.google.com/drive/folders/1t5u8Utvmu6gnxs90NLUIfmIX0_5D3WtK)
 
+- Real-world videos (or any self-prepared videos) need to be configured via the following:
+  - Check the settings of val_dir in **config.py** and modify it if necessary.
+  - To convert the **Real-world video** into frames:
+    `mkdir VIDEO_NAME && ffmpeg -i VIDEO_NAME.mp4 -f image2 VIDEO_NAME/%06d.png`
+    
+    eg, `mkdir ./val_baby && ffmpeg -i ./baby.avi -f image2 ./val_baby/%06d.png`
+> Tips: ffmpeg can also be installed by conda.
+  - Modify the frames into **frameA/frameB/frameC**:
+    `python make_frameACB.py `(remember adapt the 'if' at the beginning of the program to select videos.)
+> Tips: Thanks to a fellow friend [Peng Zheng](https://github.com/ZhengPeng7/motion_magnification_learning-based) for the help!
 
 
 
 > ## 📑: Performance Comparison
-> ![test](https://github.com/Jiafei127/FD4MM/blob/main/fig/perf.png   'Performance Comparison')  
+> - For **Synthetic Test Dataset:** 
+> ![test](https://github.com/Jiafei127/FD4MM/blob/main/fig/perf.png   'Performance Comparison')
+
+> - For **Real-world Test Dataset:** 
+> ![test](https://github.com/Jiafei127/FD4MM/blob/main/fig/sdperf.png   'sdPerformance Comparison')
 
 
