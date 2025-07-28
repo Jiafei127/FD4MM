@@ -19,7 +19,7 @@ import random
 
 from tensorboardX import SummaryWriter
 writer = SummaryWriter(log_dir="./log_magnet_FoCR")
-from utils.utils import ContrastLoss_Ori,ContrastLoss_fft , EdgeLoss, CharbonnierLoss
+from utils.utils import ContrastLoss_Ori, EdgeLoss, CharbonnierLoss
 
 # Configurations 导入数据 os 等
 losses = []
@@ -48,7 +48,7 @@ def main():
 
     # Metrics
     criterion_char = CharbonnierLoss().cuda()
-    criterion_cr = ContrastLoss_fft().cuda()
+    criterion_cr = ContrastLoss_Ori().cuda()
     criterion_edge = EdgeLoss().cuda()
 
     optimizer = optim.Adam(magnet.parameters(), lr=config.lr,
